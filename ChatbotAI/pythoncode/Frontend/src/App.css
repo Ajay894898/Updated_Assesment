@@ -1,0 +1,119 @@
+/* General styles for the entire chat */
+.chat-container {
+
+  margin: 10px auto;
+  background-color: #c3bdbd;
+  padding: 20px;
+  /* height: 100%; */
+  border-radius: 15px;
+   box-shadow: 20px 40px 52px rgba(143, 140, 140, 0.1);
+ 
+}
+
+/* Title of the chat */
+.chat-title {
+  text-align: center;
+  margin-bottom: 20px;
+ font-weight: bolder;
+  color: rgb(14, 1, 14);
+
+}
+
+/* Chat box styles */
+.chat-box {
+  
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+/* Individual message container */
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Styles for user messages */
+.user-message {
+  background-color: #0078d4;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  align-self: flex-start;
+  max-width: 80%;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+/* Styles for chatbot responses */
+.bot-response {
+  background-color: #e1e1e1;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+  align-self: flex-end;
+  max-width: 80%;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+/* Input field styles */
+.text-field {
+  background-color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Add some custom styles for processing state */
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.text-field:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.chat-box {
+  padding: 10px;
+  /* background-image: linear-gradient(rgba(255, 0, 0, 0.541), rgba(255, 255, 0, 0.518)); */
+  background-color:rgba(9, 9, 9, 0.546);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  font-weight: bold;
+  color: #00060b;
+  font-style: italic;
+}
+
+.bot-response {
+  margin-left: 20px;
+  color: #0d0d0e;
+  font-style: italic;
+}
